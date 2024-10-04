@@ -1,8 +1,8 @@
-##About
+# About
 
 This project implements a simple animated dinosaur jumping over randomly generated trees, similar to the Chrome Dino game, on a TFT display using the TFT_eSPI and SPI libraries for Arduino. The game features a dinosaur that jumps over randomly generated trees, similar to the Chrome Dino game. 
 
-#Demo
+# Demo
 
 The above GIF shows the dinosaur jumping over trees, and the background updating as trees move across the screen.
 Project Structure
@@ -11,14 +11,14 @@ Project Structure
     b: Stores the bitmap data for the dinosaur and trees.
     README.md: Documentation for the project.
 
-#How It Works
+# How It Works
 
     Dinosaur Movement: The dinosaur remains fixed at the bottom of the screen and can jump when trees approach. The jump has a defined height, speed, and fall mechanics.
     Tree Generation: Trees are randomly generated off-screen and move toward the left. Once they move off-screen, they are reset to reappear after a random delay.
     Collision Detection: The game detects when the dinosaur is about to collide with a tree and initiates a jump if a collision is imminent.
     Graphics: The dinosaur and trees are drawn using bitmap images scaled for the TFT display.
 
-#Installation and Setup (source: https://coms3930.notion.site/Lab-1-TFT-Display-a53b9c10137a4d95b22d301ec6009a94)
+# Installation and Setup (source: https://coms3930.notion.site/Lab-1-TFT-Display-a53b9c10137a4d95b22d301ec6009a94)
 
 Requirements
 
@@ -105,7 +105,7 @@ Uploading the Code
     Ensure the correct board and port are selected (as per the previous steps).
     Click the Upload button (the right arrow icon) to upload the code to your microcontroller.
     
-#Code Overview
+# Code Overview
 
 The main logic is split into several parts:
 
@@ -113,7 +113,7 @@ The main logic is split into several parts:
     Main Loop (loop()): Continuously updates the positions of the trees and handles the jumping logic for the dinosaur and also checks for collisions/redraws the screen.
     Bitmap Drawing: The drawScaledBitmap() function is used to scale and draw bitmaps for the dinosaur and trees on the screen.
 
-#Customization
+# Customization
 
 You can customize the following aspects of the art:
 
