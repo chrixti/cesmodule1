@@ -18,7 +18,8 @@ Project Structure
     Collision Detection: The game detects when the dinosaur is about to collide with a tree and initiates a jump if a collision is imminent.
     Graphics: The dinosaur and trees are drawn using bitmap images scaled for the TFT display.
 
-# Installation and Setup (source: https://coms3930.notion.site/Lab-1-TFT-Display-a53b9c10137a4d95b22d301ec6009a94)
+# Installation and Setup 
+(source: https://coms3930.notion.site/Lab-1-TFT-Display-a53b9c10137a4d95b22d301ec6009a94)
 
 Requirements
 
