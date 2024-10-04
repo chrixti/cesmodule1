@@ -4,6 +4,7 @@ This project implements a simple animated dinosaur jumping over randomly generat
 
 # Demo
 ![get-GIF](https://github.com/chrixti/cesmodule1/blob/main/dino.gif)
+
 The above GIF shows the dinosaur jumping over trees, and the background updating as trees move across the screen.
 Project Structure
 
