@@ -3,7 +3,7 @@
 This project implements a simple animated dinosaur jumping over randomly generated trees, similar to the Chrome Dino game, on a TFT display using the TFT_eSPI and SPI libraries for Arduino. The game features a dinosaur that jumps over randomly generated trees, similar to the Chrome Dino game. 
 
 # Demo
-
+![get-GIF](https://github.com/chrixti/cesmodule1/blob/main/dino.gif)
 The above GIF shows the dinosaur jumping over trees, and the background updating as trees move across the screen.
 Project Structure
 
